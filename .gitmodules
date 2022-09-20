@@ -1,0 +1,6 @@
+[submodule "submodules/inja"]
+	path = submodules/inja
+	url = https://github.com/pantor/inja
+[submodule "submodules/gsl-lite"]
+	path = submodules/gsl-lite
+	url = https://github.com/gsl-lite/gsl-lite

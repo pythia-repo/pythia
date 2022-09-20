@@ -1,0 +1,20 @@
+#ifndef PyTHIA_PYTHIA_REGISTER_H_
+#define PyTHIA_PYTHIA_REGISTER_H_
+
+@include_statements@
+
+namespace Pythia {
+
+namespace P4Pythia {
+
+void registerCompilerTargets() {
+@compiler_targets@}
+
+void registerPythiaTargets() {
+@pythia_targets@}
+
+}  // namespace Pythia
+
+}  // namespace P4Pythia
+
+#endif  /* PyTHIA_PYTHIA_REGISTER_H_ */
